@@ -1,4 +1,6 @@
 package io.alamincsme.payload;
 
-public class APIResponse {
+public class APIResponse<T> {
+    int recordCount;
+    T response;
 }
